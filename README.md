@@ -1,6 +1,6 @@
 # weatherapp
 
-Weather mobile application "Real time"
+Weather fluttter mobile application "Real time"
 Used Packages:
   http
   provider 
