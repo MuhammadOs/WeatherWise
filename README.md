@@ -1,6 +1,12 @@
 # weatherapp
 
-A new Flutter project.
+Weather mobile application "Real time"
+Used Packages:
+  http
+  provider 
+  lottie
+  flutter_native_splash
+  flutter_launcher_icons
 
 ## Getting Started
 
