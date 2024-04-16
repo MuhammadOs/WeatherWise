@@ -2,8 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:provider/provider.dart';
-import 'package:provider/provider.dart';
-import 'package:weatherapp/Pages/HomePage.dart';
 import 'package:weatherapp/Providers/Weather%20Provider.dart';
 
 import '../Models/weather model.dart';

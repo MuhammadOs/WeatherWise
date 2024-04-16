@@ -15,7 +15,6 @@ void main() {
 
 class WeatherApp extends StatelessWidget {
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -25,7 +24,7 @@ class WeatherApp extends StatelessWidget {
         primarySwatch: Provider.of<WeatherProvider>(context).weatherData == null ? Colors.indigo : Provider.of<WeatherProvider>(context).weatherData!.getThemeColor(),
         brightness: Brightness.light,
         primaryColorLight: Colors.blue,
-        //useMaterial3: true,
+        useMaterial3: false
       ),
       home: Home_page(),
     );

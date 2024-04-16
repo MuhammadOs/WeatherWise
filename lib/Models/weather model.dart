@@ -29,16 +29,16 @@ class WeatherModel
       {
         return 'Assets/Images/thunderstorm.png';
       }
-    else if(weatherState == 'Clear' || weatherState == 'Light cloud'){
+    else if(weatherState == 'Clear' || weatherState == 'Light cloud' || weatherState == 'Sunny'){
       return 'Assets/Images/clear.png';
     }
     else if(weatherState == 'Sleet' || weatherState == 'Snow' || weatherState == 'Hail'){
       return 'Assets/Images/snow.png';
     }
-    else if(weatherState == 'Heavy cloud' || weatherState == 'Partly cloudy'){
+    else if(weatherState == 'Heavy cloud' || weatherState == 'Partly Cloudy'){
       return 'Assets/Images/cloudy.png';
     }
-    else if(weatherState == 'Light rain' || weatherState == 'Heavy rain' || weatherState == 'Showers' || weatherState == 'Patchy rain possible'){
+    else if(weatherState == 'Light rain' || weatherState == 'Heavy rain' || weatherState == 'Showers' || weatherState == 'Patchy rain nearby'){
       return 'Assets/Images/rainy.png';
     }
     else {
@@ -51,20 +51,20 @@ class WeatherModel
     {
       return Colors.blue;
     }
-    else if(weatherState == 'Clear' || weatherState == 'Light cloud'){
+    else if(weatherState == 'Clear' || weatherState == 'Light cloud' || weatherState == 'Sunny'){
       return Colors.orange;
     }
     else if(weatherState == 'Sleet' || weatherState == 'Snow' || weatherState == 'Hail'){
       return Colors.blue;
     }
-    else if(weatherState == 'Heavy cloud' || weatherState == 'Partly cloudy'){
+    else if(weatherState == 'Heavy cloud' || weatherState == 'Partly Cloudy'){
       return Colors.blueGrey;
     }
-    else if(weatherState == 'Light rain' || weatherState == 'Heavy rain' || weatherState == 'Showers' || weatherState == 'Patchy rain possible'){
+    else if(weatherState == 'Light rain' || weatherState == 'Heavy rain' || weatherState == 'Showers' || weatherState == 'Patchy rain nearby'){
       return Colors.blue;
     }
     else {
-      return Colors.orange;
+      return Colors.red;
     }
   }
 
